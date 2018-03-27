@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/tabs/index/index",
+    "pages/tabs/classify/classify",
+    "pages/tabs/personal/personal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2395FF",
+    "navigationBarTitleText": "玩Android",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "selectedColor": "#2395FF",
+    "list": [
+      {
+        "pagePath": "pages/tabs/index/index",
+        "iconPath":"pages/res/index1.png",
+        "selectedIconPath":"pages/res/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabs/classify/classify",
+        "iconPath": "pages/res/class1.png",
+        "selectedIconPath": "pages/res/class.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/tabs/personal/personal",
+        "iconPath": "pages/res/person1.png",
+        "selectedIconPath": "pages/res/person.png",
+        "text": "个人"
+      }
+    ]
+  }
+}
